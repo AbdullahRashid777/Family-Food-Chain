@@ -1,0 +1,248 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header .logo {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+nav ul li a:hover {
+    color: #f9a826;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('https://source.unsplash.com/1600x900/?food');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+}
+
+.hero .btn {
+    background-color: #f9a826;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: 600;
+}
+
+.hero .btn:hover {
+    background-color: #f78d1e;
+}
+
+/* Menu Section */
+.menu {
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.menu .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.menu h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.menu-item {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 8px;
+    width: 30%;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.menu-item h3 {
+    margin-top: 15px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.menu-item p {
+    margin: 10px 0;
+    color: #666;
+}
+
+.menu-item span {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #f9a826;
+}
+
+/* About Section */
+.about {
+    background-color: #f9a826;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Contact Section */
+.contact {
+    padding: 50px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact input,
+.contact textarea {
+    padding: 15px;
+    margin: 10px 0;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.contact textarea {
+    height: 150px;
+    resize: none;
+}
+
+.contact .btn {
+    background-color: #f9a826;
+    color: #fff;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 30px;
+    margin-top: 15px;
+}
+
+.contact .btn:hover {
+    background-color: #f78d1e;
+}
+
+/* Order Section */
+.order {
+    background-color: #f8f8f8;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.order .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.order h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.order p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.order .btn {
+    background-color: #f9a826;
+    color: #fff;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+.order .btn:hover {
+    background-color: #f78d1e;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
